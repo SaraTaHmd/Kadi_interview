@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEC152132AFA6CB3001100B6 /* Kadi_interviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC152122AFA6CB3001100B6 /* Kadi_interviewApp.swift */; };
+		FEC152152AFA6CB3001100B6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC152142AFA6CB3001100B6 /* ListView.swift */; };
+		FEC152172AFA6CB4001100B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC152162AFA6CB4001100B6 /* Assets.xcassets */; };
+		FEC1521A2AFA6CB4001100B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC152192AFA6CB4001100B6 /* Preview Assets.xcassets */; };
+		FEC152242AFA6CB4001100B6 /* Kadi_interviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC152232AFA6CB4001100B6 /* Kadi_interviewTests.swift */; };
+		FEC1522E2AFA6CB4001100B6 /* Kadi_interviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1522D2AFA6CB4001100B6 /* Kadi_interviewUITests.swift */; };
+		FEC152302AFA6CB4001100B6 /* Kadi_interviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1522F2AFA6CB4001100B6 /* Kadi_interviewUITestsLaunchTests.swift */; };
+		FEC1527D2AFB7A8B001100B6 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1527C2AFB7A8B001100B6 /* BaseModel.swift */; };
+		FEC152822AFB7B14001100B6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC152812AFB7B14001100B6 /* ViewModel.swift */; };
+		FEC152872AFB7B71001100B6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC152862AFB7B71001100B6 /* Model.swift */; };
+		FEC152892AFB8794001100B6 /* PostsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC152882AFB8794001100B6 /* PostsRowView.swift */; };
+		FEC1528C2AFB9259001100B6 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1528B2AFB9259001100B6 /* Extentions.swift */; };
+		FEC1528E2AFB92E2001100B6 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1528D2AFB92E2001100B6 /* LoaderView.swift */; };
+		FEC152912AFB931D001100B6 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = FEC152902AFB931D001100B6 /* JGProgressHUD */; };
+		FEC152932AFB9411001100B6 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC152922AFB9411001100B6 /* FormView.swift */; };
+		FEC152952AFB9981001100B6 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC152942AFB9981001100B6 /* TextFieldView.swift */; };
+		FEC152982AFCCAA2001100B6 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC152972AFCCAA2001100B6 /* Client.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEC152202AFA6CB4001100B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC152072AFA6CB3001100B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC1520E2AFA6CB3001100B6;
+			remoteInfo = Kadi_interview;
+		};
+		FEC1522A2AFA6CB4001100B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC152072AFA6CB3001100B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC1520E2AFA6CB3001100B6;
+			remoteInfo = Kadi_interview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEC1520F2AFA6CB3001100B6 /* Kadi_interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kadi_interview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC152122AFA6CB3001100B6 /* Kadi_interviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadi_interviewApp.swift; sourceTree = "<group>"; };
+		FEC152142AFA6CB3001100B6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		FEC152162AFA6CB4001100B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEC152192AFA6CB4001100B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEC1521F2AFA6CB4001100B6 /* Kadi_interviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kadi_interviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC152232AFA6CB4001100B6 /* Kadi_interviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadi_interviewTests.swift; sourceTree = "<group>"; };
+		FEC152292AFA6CB4001100B6 /* Kadi_interviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kadi_interviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC1522D2AFA6CB4001100B6 /* Kadi_interviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadi_interviewUITests.swift; sourceTree = "<group>"; };
+		FEC1522F2AFA6CB4001100B6 /* Kadi_interviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadi_interviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEC1527C2AFB7A8B001100B6 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		FEC152812AFB7B14001100B6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FEC152862AFB7B71001100B6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FEC152882AFB8794001100B6 /* PostsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRowView.swift; sourceTree = "<group>"; };
+		FEC1528B2AFB9259001100B6 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		FEC1528D2AFB92E2001100B6 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		FEC152922AFB9411001100B6 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		FEC152942AFB9981001100B6 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		FEC152972AFCCAA2001100B6 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC1520C2AFA6CB3001100B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC152912AFB931D001100B6 /* JGProgressHUD in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC1521C2AFA6CB4001100B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC152262AFA6CB4001100B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC152062AFA6CB3001100B6 = {
+			isa = PBXGroup;
+			children = (
+				FEC152112AFA6CB3001100B6 /* Kadi_interview */,
+				FEC152222AFA6CB4001100B6 /* Kadi_interviewTests */,
+				FEC1522C2AFA6CB4001100B6 /* Kadi_interviewUITests */,
+				FEC152102AFA6CB3001100B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC152102AFA6CB3001100B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1520F2AFA6CB3001100B6 /* Kadi_interview.app */,
+				FEC1521F2AFA6CB4001100B6 /* Kadi_interviewTests.xctest */,
+				FEC152292AFA6CB4001100B6 /* Kadi_interviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC152112AFA6CB3001100B6 /* Kadi_interview */ = {
+			isa = PBXGroup;
+			children = (
+				FEC152122AFA6CB3001100B6 /* Kadi_interviewApp.swift */,
+				FEC1527B2AFB7A74001100B6 /* commen */,
+				FEC152962AFCCA56001100B6 /* Network */,
+				FEC152802AFB7AF4001100B6 /* Modules */,
+				FEC152162AFA6CB4001100B6 /* Assets.xcassets */,
+				FEC152182AFA6CB4001100B6 /* Preview Content */,
+			);
+			path = Kadi_interview;
+			sourceTree = "<group>";
+		};
+		FEC152182AFA6CB4001100B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEC152192AFA6CB4001100B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEC152222AFA6CB4001100B6 /* Kadi_interviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC152232AFA6CB4001100B6 /* Kadi_interviewTests.swift */,
+			);
+			path = Kadi_interviewTests;
+			sourceTree = "<group>";
+		};
+		FEC1522C2AFA6CB4001100B6 /* Kadi_interviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1522D2AFA6CB4001100B6 /* Kadi_interviewUITests.swift */,
+				FEC1522F2AFA6CB4001100B6 /* Kadi_interviewUITestsLaunchTests.swift */,
+			);
+			path = Kadi_interviewUITests;
+			sourceTree = "<group>";
+		};
+		FEC1527B2AFB7A74001100B6 /* commen */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1528A2AFB9241001100B6 /* Extentions */,
+				FEC1527F2AFB7ABE001100B6 /* View */,
+				FEC1527E2AFB7AB3001100B6 /* model */,
+			);
+			path = commen;
+			sourceTree = "<group>";
+		};
+		FEC1527E2AFB7AB3001100B6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1527C2AFB7A8B001100B6 /* BaseModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FEC1527F2AFB7ABE001100B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1528D2AFB92E2001100B6 /* LoaderView.swift */,
+				FEC152942AFB9981001100B6 /* TextFieldView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEC152802AFB7AF4001100B6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FEC152852AFB7B5B001100B6 /* View */,
+				FEC152842AFB7B4B001100B6 /* Model */,
+				FEC152832AFB7B3C001100B6 /* ViewModel */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FEC152832AFB7B3C001100B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FEC152812AFB7B14001100B6 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FEC152842AFB7B4B001100B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEC152862AFB7B71001100B6 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEC152852AFB7B5B001100B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEC152142AFA6CB3001100B6 /* ListView.swift */,
+				FEC152882AFB8794001100B6 /* PostsRowView.swift */,
+				FEC152922AFB9411001100B6 /* FormView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEC1528A2AFB9241001100B6 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1528B2AFB9259001100B6 /* Extentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		FEC152962AFCCA56001100B6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FEC152972AFCCAA2001100B6 /* Client.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC1520E2AFA6CB3001100B6 /* Kadi_interview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC152332AFA6CB4001100B6 /* Build configuration list for PBXNativeTarget "Kadi_interview" */;
+			buildPhases = (
+				FEC1520B2AFA6CB3001100B6 /* Sources */,
+				FEC1520C2AFA6CB3001100B6 /* Frameworks */,
+				FEC1520D2AFA6CB3001100B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kadi_interview;
+			packageProductDependencies = (
+				FEC152902AFB931D001100B6 /* JGProgressHUD */,
+			);
+			productName = Kadi_interview;
+			productReference = FEC1520F2AFA6CB3001100B6 /* Kadi_interview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEC1521E2AFA6CB4001100B6 /* Kadi_interviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC152362AFA6CB4001100B6 /* Build configuration list for PBXNativeTarget "Kadi_interviewTests" */;
+			buildPhases = (
+				FEC1521B2AFA6CB4001100B6 /* Sources */,
+				FEC1521C2AFA6CB4001100B6 /* Frameworks */,
+				FEC1521D2AFA6CB4001100B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC152212AFA6CB4001100B6 /* PBXTargetDependency */,
+			);
+			name = Kadi_interviewTests;
+			productName = Kadi_interviewTests;
+			productReference = FEC1521F2AFA6CB4001100B6 /* Kadi_interviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEC152282AFA6CB4001100B6 /* Kadi_interviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC152392AFA6CB4001100B6 /* Build configuration list for PBXNativeTarget "Kadi_interviewUITests" */;
+			buildPhases = (
+				FEC152252AFA6CB4001100B6 /* Sources */,
+				FEC152262AFA6CB4001100B6 /* Frameworks */,
+				FEC152272AFA6CB4001100B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC1522B2AFA6CB4001100B6 /* PBXTargetDependency */,
+			);
+			name = Kadi_interviewUITests;
+			productName = Kadi_interviewUITests;
+			productReference = FEC152292AFA6CB4001100B6 /* Kadi_interviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC152072AFA6CB3001100B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FEC1520E2AFA6CB3001100B6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FEC1521E2AFA6CB4001100B6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FEC1520E2AFA6CB3001100B6;
+					};
+					FEC152282AFA6CB4001100B6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FEC1520E2AFA6CB3001100B6;
+					};
+				};
+			};
+			buildConfigurationList = FEC1520A2AFA6CB3001100B6 /* Build configuration list for PBXProject "Kadi_interview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC152062AFA6CB3001100B6;
+			packageReferences = (
+				FEC1528F2AFB931D001100B6 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
+			productRefGroup = FEC152102AFA6CB3001100B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC1520E2AFA6CB3001100B6 /* Kadi_interview */,
+				FEC1521E2AFA6CB4001100B6 /* Kadi_interviewTests */,
+				FEC152282AFA6CB4001100B6 /* Kadi_interviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC1520D2AFA6CB3001100B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC1521A2AFA6CB4001100B6 /* Preview Assets.xcassets in Resources */,
+				FEC152172AFA6CB4001100B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC1521D2AFA6CB4001100B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC152272AFA6CB4001100B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC1520B2AFA6CB3001100B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC152872AFB7B71001100B6 /* Model.swift in Sources */,
+				FEC1527D2AFB7A8B001100B6 /* BaseModel.swift in Sources */,
+				FEC152152AFA6CB3001100B6 /* ListView.swift in Sources */,
+				FEC152892AFB8794001100B6 /* PostsRowView.swift in Sources */,
+				FEC152982AFCCAA2001100B6 /* Client.swift in Sources */,
+				FEC152822AFB7B14001100B6 /* ViewModel.swift in Sources */,
+				FEC1528E2AFB92E2001100B6 /* LoaderView.swift in Sources */,
+				FEC152952AFB9981001100B6 /* TextFieldView.swift in Sources */,
+				FEC152932AFB9411001100B6 /* FormView.swift in Sources */,
+				FEC152132AFA6CB3001100B6 /* Kadi_interviewApp.swift in Sources */,
+				FEC1528C2AFB9259001100B6 /* Extentions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC1521B2AFA6CB4001100B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC152242AFA6CB4001100B6 /* Kadi_interviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC152252AFA6CB4001100B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC1522E2AFA6CB4001100B6 /* Kadi_interviewUITests.swift in Sources */,
+				FEC152302AFA6CB4001100B6 /* Kadi_interviewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEC152212AFA6CB4001100B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC1520E2AFA6CB3001100B6 /* Kadi_interview */;
+			targetProxy = FEC152202AFA6CB4001100B6 /* PBXContainerItemProxy */;
+		};
+		FEC1522B2AFA6CB4001100B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC1520E2AFA6CB3001100B6 /* Kadi_interview */;
+			targetProxy = FEC1522A2AFA6CB4001100B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEC152312AFA6CB4001100B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEC152322AFA6CB4001100B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC152342AFA6CB4001100B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kadi_interview/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t.Kadi-interview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEC152352AFA6CB4001100B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kadi_interview/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t.Kadi-interview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEC152372AFA6CB4001100B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t.Kadi-interviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadi_interview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kadi_interview";
+			};
+			name = Debug;
+		};
+		FEC152382AFA6CB4001100B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t.Kadi-interviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadi_interview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kadi_interview";
+			};
+			name = Release;
+		};
+		FEC1523A2AFA6CB4001100B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t.Kadi-interviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kadi_interview;
+			};
+			name = Debug;
+		};
+		FEC1523B2AFA6CB4001100B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "t.Kadi-interviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kadi_interview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC1520A2AFA6CB3001100B6 /* Build configuration list for PBXProject "Kadi_interview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC152312AFA6CB4001100B6 /* Debug */,
+				FEC152322AFA6CB4001100B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC152332AFA6CB4001100B6 /* Build configuration list for PBXNativeTarget "Kadi_interview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC152342AFA6CB4001100B6 /* Debug */,
+				FEC152352AFA6CB4001100B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC152362AFA6CB4001100B6 /* Build configuration list for PBXNativeTarget "Kadi_interviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC152372AFA6CB4001100B6 /* Debug */,
+				FEC152382AFA6CB4001100B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC152392AFA6CB4001100B6 /* Build configuration list for PBXNativeTarget "Kadi_interviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC1523A2AFA6CB4001100B6 /* Debug */,
+				FEC1523B2AFA6CB4001100B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FEC1528F2AFB931D001100B6 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FEC152902AFB931D001100B6 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEC1528F2AFB931D001100B6 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FEC152072AFA6CB3001100B6 /* Project object */;
+}
